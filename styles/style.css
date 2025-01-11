@@ -218,18 +218,19 @@ footer {
   width: 50%;
 }
 
-.footer-column .section-description{
-    font-size: 16px;
-    width: 562px;
+.footer-column .section-description {
+  font-size: 16px;
+  width: 562px;
 }
 
-footer a img{
-    margin-top: 30px;
-    padding: 10px;
+footer a img {
+  margin-top: 30px;
+  padding: 10px;
 }
 
 footer input[type="text"],
-footer input[type="email"], textarea {
+footer input[type="email"],
+textarea {
   height: 64px;
   width: 100%;
   border-radius: 5px;
