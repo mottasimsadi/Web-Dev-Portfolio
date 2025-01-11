@@ -27,6 +27,7 @@
   padding: 18px 35px;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
 
 .section-title{
@@ -158,6 +159,7 @@ main section{
     margin-top: 30px;
     margin-bottom: 50px;
     margin-left: 115px;
+    font-size: 16px;
 }
 
 .skills-container{
@@ -169,4 +171,37 @@ main section{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* Resume Section Styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.resume hr{
+    margin: 30px 5px;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
 }
