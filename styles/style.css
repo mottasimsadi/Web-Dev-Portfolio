@@ -30,6 +30,13 @@
   cursor: pointer;
 }
 
+.contact-btn {
+  background-color: #fff8f3;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  margin-left: 30px;
+}
+
 .section-title {
   font-size: 35px;
   font-weight: bold;
