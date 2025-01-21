@@ -253,3 +253,92 @@ textarea {
 textarea {
   height: 180px;
 }
+
+/* Responsive Media Query */
+
+@media screen and (max-width: 576px) {
+  .skills-container, .resume-container, footer, .about-items, .banner, nav, nav > ul{
+    flex-direction: column;
+  }
+
+  .skills .section-description{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  footer, .about{
+    padding: 20px;
+  }
+
+  .footer-column{
+    width: 100%;
+  }
+
+  .footer-column .section-description {
+    width: 100%;
+  }
+
+  footer input[type="text"], footer input[type="email"], textarea{
+    width: calc(100% - 40px);
+    padding: 10px;
+  }
+
+  .about-section{
+    width: 100%;
+  }
+
+  .banner{
+    margin: 20px;
+  }
+
+  .header{
+    background-image: none;
+  }
+
+  .banner-profile-pic{
+    width: 100%;
+  }
+
+  nav > ul{
+    gap: 20px;
+  }
+
+  .banner .contact-btn{
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+/* Tablet Specific Media Query */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .banner{
+    flex-direction: column;
+  }
+
+  .about-section{
+    width: 100%;
+  }
+
+  .skills .section-description{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  footer{
+    padding: 20px;
+  }
+
+  .footer-column{
+    width: 100%;
+  }
+
+  .footer-column .section-description {
+    width: 100%;
+  }
+
+  footer input[type="text"], footer input[type="email"], textarea{
+    width: calc(100% - 40px);
+    padding: 10px;
+  }
+}
